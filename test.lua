@@ -4,9 +4,9 @@ for k,v in pairs(x) do
 	print(k,v)
 end
 
-local b = "liuhaotian"
---测试develop
---测试新的分支test1
---ceshi
-local phone = 158****8070
+-- local b = "liuhaotian"
+-- --测试develop
+-- --测试新的分支test1
+-- --ceshi
+-- local phone = 158****8070
 

@@ -1,8 +1,17 @@
-local x = {}
+local hahah = {}
 for i=1,10 do
-	print(i)
+	table.insert(hahah,i)
 end
 
---哈哈哈，试试ssh
+for i,v in ipairs(hahah) do
+	print(i,v)
+end
 
---试试新分支吗
+
+table.sort( hahah, function (a, b)
+	return a>b
+end )
+
+for i,v in ipairs(hahah) do
+	print('===>>',i,v)
+end
